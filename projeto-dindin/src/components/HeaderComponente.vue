@@ -1,22 +1,18 @@
 <template>
   <header>
-    <div class="header-componente-container">
-      <a href="#"><img class="logo" src="../assets/logo-dindin-white.png"></a>
-      <h2><a href="#">dindin</a></h2>
-        <div class="texts">
-          <p><a href="#">CURSOS</a></p>
-          <p><a href="#">PAINEL ADMINISTRATIVO</a></p>
+    <div class="componentes-header-footer-container">
+      <a href="#"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a>
+      <h2 class="componentes-header-footer-title"><a href="#">dindin</a></h2>
+        <div class="menu-header-conteiner">
+          <p class="menu-items"><a href="#">CURSOS</a></p>
+          <p class="menu-items"><a href="#">PAINEL ADMINISTRATIVO</a></p>
         </div>
     </div>
   </header>
 </template>
+
 <script>
-export default {
-  name: "HeaderComponente",
-  props: {
-    msg: String,
-  },
-};
+export default {name:"HeaderComponente",props:{ msg: String,},};
 </script>
 
 <style>
@@ -39,7 +35,7 @@ a{
 }
 
 /*Header Componente*/
-.header-componente-container{
+.componentes-header-footer-container{
     position: relative;
     align-items: center;
     display: flex;
@@ -48,18 +44,18 @@ a{
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
-.header-componente-container .texts{
+.menu-header-conteiner{
     position:relative;
     display: flex;
     margin-left:auto;
     margin-right: 40px;
 }
-.header-componente-container img{
+.componentes-header-footer-logo-img{
     position: relative;
     margin-left:82px;
     height: 71px;
 }
-.header-componente-container h2{ 
+.componentes-header-footer-title{ 
     position: relative;
     margin-left:11px;
     width: auto;
@@ -70,7 +66,7 @@ a{
     line-height: 64px;
     color: #FFFFFF;
 }
-.header-componente-container p{
+.menu-items{
     position: relative;
     margin-left:42px;
     font-style: normal;
@@ -84,28 +80,28 @@ a{
 /*Responsive 1 */
 
 @media (max-width: 499px){
-.header-componente-container{
+.componentes-header-footer-container{
   display: block; 
   height: 185px;
 }
-.header-componente-container .texts{
+.menu-header-conteiner{
     display: block;
     margin-left:auto;
     margin-right: 0px;
     
 }
-.header-componente-container img{
+.componentes-header-footer-logo-img{
   margin-top: 5px;
   margin-left: 0px;
   height: 50px;
 }
-.header-componente-container h2{ 
+.componentes-header-footer-title{ 
     display: inline-block;
     margin-left: 2px;   
     bottom: 3px;
     font-size: 40px;   
 }
-.header-componente-container p{
+.menu-items{
   margin-top: 10px;
 }
 }
@@ -113,16 +109,16 @@ a{
 
 @media (max-width: 599px){
 
-.header-componente-container img{
+.componentes-header-footer-logo-img{
   margin-top: 5px;
   margin-left: 5px;
   height: 40px;
 }
-.header-componente-container h2{  
+.componentes-header-footer-title{  
     margin-left: 2px;   
     font-size: 30px;   
 }
-.header-componente-container p{
+.menu-items{
   font-size: 16px;
   padding: 25px 0px 0px 0px;
   margin: auto 10px;
@@ -133,16 +129,16 @@ a{
 
 @media (max-width: 750px){
 
-.header-componente-container img{
+.componentes-header-footer-logo-img{
   margin-top: 5px;
   margin-left: 5px;
   height: 60px;
 }
-.header-componente-container h2{  
+.componentes-header-footer-title{  
     margin-left: 2px;   
     font-size: 50px;   
 }
-.header-componente-container p{
+.menu-items{
   font-size: 20px;
   padding: 25px 0px 0px 0px;
   margin: auto 10px;

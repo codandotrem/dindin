@@ -1,17 +1,19 @@
 <template>
   <div class="index">
     <Header />
+    <Footer />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Header from "@/components/HeaderComponente.vue";
+import Footer from "@/components/FooterComponente.vue";
 
 export default {
   name: "Index",
   components: {
     Header,
+    Footer,
   },
 };
 </script>
