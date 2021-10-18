@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .componentes-header-footer-container{
-  position: absolute;
+  position: relative;
   bottom: 0;
   background-color: #419488;
 }
