@@ -20,6 +20,7 @@ export default {name:"HeaderComponente",props:{ msg: String,},};
 /*Puting some default*/
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 *{ 
   border:0;
   padding: 0;
@@ -27,7 +28,7 @@ export default {name:"HeaderComponente",props:{ msg: String,},};
   vertical-align: baseline;
   box-sizing: border-box;
   font-weight: inherit;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
 }
 a{
   text-decoration: none;
@@ -57,11 +58,11 @@ a{
 }
 .componentes-header-footer-title{ 
     position: relative;
-    margin-left:11px;
+    margin-left: 11px;
     width: auto;
     height: 48px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 56px;
     line-height: 64px;
     color: #FFFFFF;
@@ -70,11 +71,12 @@ a{
     position: relative;
     margin-left:42px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    color: #FDFDFD;
 }
 
 /*Responsive 1 */

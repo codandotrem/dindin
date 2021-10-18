@@ -8,30 +8,35 @@
                 </div>
             </div>
         </footer> 
+      
 </template>
 <script>
+
+
 export default {
   name: "FooterComponente",
   props: {
     msg: String,
-  },
+  },  
 };
+
 </script>
+
 <style scoped>
 .componentes-header-footer-container{
   position: absolute;
   bottom: 0;
-background-color: #419488;
+  background-color: #419488;
 }
-.componentes-header-footer-title{     
+.componentes-header-footer-title{
     height: 58px;
 }
 .footer-description{
     position: relative;
     font-style: normal;
-    font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    font-weight: 100;
 }
 </style>
