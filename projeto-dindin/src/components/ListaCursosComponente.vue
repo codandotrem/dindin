@@ -13,80 +13,6 @@
     </div>
     </section>      
     <div class="separador"></div> 
-
-      <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div> 
-
-      <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div> 
-
-      <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div> 
-      <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div>   <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div>   <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div>   <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div>   <section class="componente-listacursos-container">
-    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
-    <div class="componente-listacursos-descricao">
-      <h3>{{title}}</h3>
-        <p>{{description}}</p>
-      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
-    </div>
-    </section>      
-    <div class="separador"></div> 
-    
-    
-           
 </main>
 
 
@@ -203,13 +129,10 @@ export default {
 
 }
 .componente-listacursos-img{
-
   width:60%;
-   margin: 20px auto;
+  margin: 20px auto;
 }
 h2, h3, p{
-  
-
   text-align: center;
   margin: 10px auto;
 }
