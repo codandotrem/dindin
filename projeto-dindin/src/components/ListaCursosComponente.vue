@@ -12,8 +12,84 @@
       <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
     </div>
     </section>      
-    <div class="separador"></div>        
+    <div class="separador"></div> 
+
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div> 
+
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div> 
+
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div> 
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div>   <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div>   <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div>   <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div>   <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
+    </div>
+    </section>      
+    <div class="separador"></div> 
+    
+    
+           
 </main>
+
+
 </template>
 
 <script>
@@ -24,15 +100,8 @@ export default {
             description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. " 
         }
     }
-  };
-  
- 
-</script>
-
-
-
-
-
+  }; 
+ </script>
 
 <style scoped>
 .herader-title{
@@ -67,7 +136,6 @@ export default {
     margin: auto 0;
     max-width: 1406px;
     min-width: 480px;
-  
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -106,13 +174,6 @@ export default {
     background:#296963;
     color:#ebfffd;
 }
-.linha{
-    position: relative;
-    margin-left:98px;
-    width: 85%;
-    height: 5px;
-    background: #C4C4C4;
-}
 .separador{
     position: relative;
     margin-left:98px;
@@ -120,4 +181,72 @@ export default {
     height: 5px;
     background: #C4C4C4;
 }
+
+
+
+
+/*Responsive 1 */
+
+@media (max-width: 499px){
+
+
+.herader-title{  
+  text-align: center;
+  margin: 50px auto;
+}
+
+.componente-listacursos-container{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+ 
+
+}
+.componente-listacursos-img{
+
+  width:60%;
+   margin: 20px auto;
+}
+h2, h3, p{
+  
+
+  text-align: center;
+  margin: 10px auto;
+}
+
+.separador{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+}
+.componente-listacursos-descricao{
+    text-align:center;
+    position: relative;
+    margin: 0px;
+    min-width: 200px;
+
+}
+.componente-listacursos-descricao button{
+    position: relative;
+    display: inline-block;
+    margin: 40px auto;
+    width: 233px;
+    height: 51px;
+ 
+}
+
+}
+/*Responsive 2 */
+
+@media (max-width: 599px){
+
+}
+
+/*Responsive 3 */
+
+@media (max-width: 750px){
+
+
+}
+
 </style>
