@@ -7,11 +7,8 @@
   <section class="componente-listacursos-container">
     <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemum.png">
     <div class="componente-listacursos-descricao">
-      <h3>Investimento para iniciantes</h3>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-        </p>
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
       <button onclick="location.href='pagina_interna.html'" type="button">começar agora</button>
     </div>
     </section>      
@@ -20,8 +17,22 @@
 </template>
 
 <script>
-export default {name:"ListaCursosComponente",props:{ msg: String,},};
+export default {
+  data() {   
+        return {
+            title: "Investimento para iniciantes",
+            description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. " 
+        }
+    }
+  };
+  
+ 
 </script>
+
+
+
+
+
 
 <style scoped>
 .herader-title{
@@ -44,7 +55,6 @@ export default {name:"ListaCursosComponente",props:{ msg: String,},};
   font-size: 20px;
   color: #555555;
 }
-/* ------------------------- */
 .componente-listacursos-container{
     position:relative;
     display:flex;

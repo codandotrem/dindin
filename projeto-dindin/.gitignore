@@ -22,6 +22,5 @@ yarn-error.log*
 
 .browserslistrc
 babel.config.js
-*.json
 .eslintrc.js
 
