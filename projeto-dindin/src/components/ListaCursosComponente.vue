@@ -114,19 +114,14 @@ export default {
 /*Responsive 1 */
 
 @media (max-width: 499px){
-
-
 .herader-title{  
   text-align: center;
   margin: 50px auto;
 }
-
 .componente-listacursos-container{
   display: block;
   margin: 0px;
   padding: 0px;
- 
-
 }
 .componente-listacursos-img{
   width:60%;
@@ -136,7 +131,6 @@ h2, h3, p{
   text-align: center;
   margin: 10px auto;
 }
-
 .separador{
     text-align: center;
     margin-left: 10%;
@@ -147,7 +141,6 @@ h2, h3, p{
     position: relative;
     margin: 0px;
     min-width: 200px;
-
 }
 .componente-listacursos-descricao button{
     position: relative;
@@ -155,20 +148,47 @@ h2, h3, p{
     margin: 40px auto;
     width: 233px;
     height: 51px;
- 
 }
+
 
 }
 /*Responsive 2 */
 
-@media (max-width: 599px){
+@media (min-width: 500px) and (max-width: 974px){
+
+.herader-title{  
+  text-align: center;
+  margin: 50px auto;
+
 
 }
+.componente-listacursos-container{
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.componente-listacursos-img{
+  max-width:50%;
 
-/*Responsive 3 */
+  margin: 20px auto;
+}
+h2, h3, p{
+  text-align: center;
+  margin: 10px auto;
+}
+.separador{
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+}
 
-@media (max-width: 750px){
-
+.componente-listacursos-descricao button{
+    position: relative;
+    margin: 40px 0px 40px 30% ;
+ 
+    width: 233px;
+    height: 51px;
+}
 
 }
 

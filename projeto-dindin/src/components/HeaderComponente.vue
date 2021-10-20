@@ -5,7 +5,7 @@
       <h2 class="componentes-header-footer-title"><a href="#">dindin</a></h2>
         <div class="menu-header-conteiner">
           <p class="menu-items"><a href="#">CURSOS</a></p> <!-- link to cursos -->
-          <p class="menu-items"><a href="#">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel adm -->
+          <p class="menu-items"><a href="#">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
         </div>
     </div>
   </header>
@@ -111,6 +111,10 @@ a{
 
 @media (max-width: 599px){
 
+.componentes-header-footer-container{
+
+  height: 200px;
+}
 .componentes-header-footer-logo-img{
   margin-top: 5px;
   margin-left: 5px;
@@ -121,9 +125,11 @@ a{
     font-size: 30px;   
 }
 .menu-items{
-  font-size: 16px;
-  padding: 25px 0px 0px 0px;
-  margin: auto 10px;
+    position: relative;
+    margin-left:10px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+  
 }
 }
 
@@ -139,6 +145,9 @@ a{
 .componentes-header-footer-title{  
     margin-left: 2px;   
     font-size: 50px;   
+}
+.menu-header-conteiner{
+  display:block;
 }
 .menu-items{
   font-size: 20px;
