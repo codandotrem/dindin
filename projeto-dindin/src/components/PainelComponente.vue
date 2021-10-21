@@ -37,7 +37,7 @@
           <td>Novo curso</td>
           <td>
             <button
-              onclick="location.href='novo_curso.html'"
+              onclick="location.href='/novocurso'"
               class="edit"
               type="button"
             >
