@@ -4,8 +4,8 @@
       <a href="/"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a> <!-- link to index -->
       <h2 class="componentes-header-footer-title"><a href="/">dindin</a></h2>
         <div class="menu-header-conteiner">
-          <p class="menu-items"><a href="#">CURSOS</a></p> <!-- link to cursos -->
-          <p class="menu-items"><a href="#">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
+          <p class="menu-items"><a href="/">CURSOS</a></p> <!-- link to cursos -->
+          <p class="menu-items"><a href="painel">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
         </div>
     </div>
   </header>

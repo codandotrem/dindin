@@ -13,6 +13,28 @@
     </div>
     </section>      
     <div class="separador"></div> 
+
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemdois.png"> <!--link to cursos page-->
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='cursos'" type="button">começar agora</button> <!--link to cursos page-->
+    </div>
+    </section>      
+    <div class="separador"></div> 
+
+      <section class="componente-listacursos-container">
+    <img class="componente-listacursos-img" src="../assets/imgs-lista-cursos/imagemtres.png"> <!--link to cursos page-->
+    <div class="componente-listacursos-descricao">
+      <h3>{{title}}</h3>
+        <p>{{description}}</p>
+      <button onclick="location.href='cursos'" type="button">começar agora</button> <!--link to cursos page-->
+    </div>
+    </section>      
+    <div class="separador"></div> 
+
+ 
 </main>
 
 
