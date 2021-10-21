@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="componentes-header-footer-container">
-      <a href="#"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a> <!-- link to index -->
-      <h2 class="componentes-header-footer-title"><a href="#">dindin</a></h2>
+      <a href="/"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a> <!-- link to index -->
+      <h2 class="componentes-header-footer-title"><a href="/">dindin</a></h2>
         <div class="menu-header-conteiner">
           <p class="menu-items"><a href="#">CURSOS</a></p> <!-- link to cursos -->
           <p class="menu-items"><a href="#">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
