@@ -1,23 +1,24 @@
 <template>
-  <div class="cursos">
+  <div class="adm">
     <Header />
-    <AulasComponente />
+    <Painel />
     <Footer />
-    
+  
   </div>
 </template>
 
 <script>
 import Header from "@/components/HeaderComponente.vue";
 import Footer from "@/components/FooterComponente.vue";
-import AulasComponente from "@/components/AulasComponente.vue";
+import Painel from "@/components/PainelComponente.vue";
+
 
 export default {
-  name: "Cursos",
+  name: "Adm",
   components: {
     Header,
     Footer,
-    AulasComponente,
+    Painel,
   },
 };
 </script>

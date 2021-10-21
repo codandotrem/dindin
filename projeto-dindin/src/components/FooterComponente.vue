@@ -1,10 +1,10 @@
 <template>
         <footer>
             <div class="componentes-header-footer-container">
-                 <a href="#"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a>
+                 <a href="/"><img class="componentes-header-footer-logo-img" src="../assets/logo-dindin-white.png"></a>
                 <div class="componente-footer-container">
-                    <h2 class="componentes-header-footer-title">dindin</h2>
-                    <p class="footer-description">educação financeira</p>
+                    <a href="/"><h2 class="componentes-header-footer-title">dindin</h2></a>
+                    <a href="/"><p class="footer-description">educação financeira</p></a>
                 </div>
             </div>
         </footer> 

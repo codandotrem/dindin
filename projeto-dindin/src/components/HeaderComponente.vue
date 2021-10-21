@@ -5,7 +5,7 @@
       <h2 class="componentes-header-footer-title"><a href="/">dindin</a></h2>
         <div class="menu-header-conteiner">
           <p class="menu-items"><a href="/">CURSOS</a></p> <!-- link to cursos -->
-          <p class="menu-items"><a href="painel">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
+          <p class="menu-items"><a href="/paineladm">PAINEL ADMINISTRATIVO</a></p> <!-- link to painel -->
         </div>
     </div>
   </header>
