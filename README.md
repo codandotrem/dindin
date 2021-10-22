@@ -40,7 +40,7 @@ Jean Freire - DevelopmentTeam
 ---
 **NOSSA ENTREGA :**
 
-- [x] **PROTÓTIPO - 07/05:**
+- [x] **PROTÓTIPO**
 *[www.figma.com](https://www.figma.com/file/GBMX9KOBvBbG66qnpWxn6h/dindin-(pocket)?node-id=0%3A1)*
 
 - [x] **CONSTRUÇÃO DA SOLUÇÃO WEB FRONTEND**
